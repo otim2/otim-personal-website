@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul{
+    padding: 10px;
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.nav ul li a{
+    background: black;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 20px;
+}
+.nav ul li a:hover{
+    background: white;
+    color: black;
+}
+img{
+    width: 100%;
+}
+.header, .skills, .work{
+    width: 100vw;
+    height: 100vh;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    width: 50%;
+}
+.skills h1, .work h1{
+    text-align: center;
+}
+.skills{
+    background-image: url("./images/pexels-veeterzy-38136.jpg");
+    /* background-position: center; */
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.skill{
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+.work{
+    font-size: 20px;
+}
+.work img{
+    width: 30%;
+}
+footer{
+    background-color: grey;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+    padding-left: 20px; 
+}
+footer ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
